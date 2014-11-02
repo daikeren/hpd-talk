@@ -1,6 +1,4 @@
 jmeter/*.csv
 jmeter/*.png
 jmeter/*.log
-
-
-
+*.pyc

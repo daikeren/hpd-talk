@@ -12,5 +12,5 @@ class Command(BaseCommand):
         except (IndexError, ValueError):
             number = 1000
         for i in range(number):
-            profile = fake_profile
+            profile = fake_profile()
             self.stdout.write("Hello {}".format(profile.name))
